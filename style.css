@@ -59,14 +59,14 @@ header {
     cursor: pointer;
     display: none;
 }
- .action_btn{
+ .action_btn {
     background-color: orange;
     color: #fff;
     padding: 0.5rem 1rem;
     border: none;
     outline: none;
     border-radius: 20px;
-    font-size: 0.8rem
+    font-size: 0.8rem;
     font-weight: bold;
     cursor: pointer;
     transition: scale 0.2 ease;
@@ -89,12 +89,12 @@ header {
     top: 60px;
     width: 300px;
     background: rgba( 255, 255, 255, 0.1);
-    backdrop-filter: blur{15px};
+   /* backdrop-filter: blur{15px}; */
 
  }
 
  /*REPONSIVE CESION */
- @media(max-widh: 992px)]{
+ @media(max-widh: 992px){
     .navbar-links,
     .navbar.action_btn {
         display: none;
