@@ -59,7 +59,7 @@ header {
     cursor: pointer;
     display: none;
 }
- .action-btn{
+ .action_btn{
     background-color: orange;
     color: #fff;
     padding: 0.5rem 1rem;
@@ -67,7 +67,42 @@ header {
     outline: none;
     border-radius: 20px;
     font-size: 0.8rem
-    fonwight: bold;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
  }
+
+ .action_btn:hover {
+    scale: 1.05;
+    color: #fff
+
+ }
+
+ .action_btn:active {
+    scale: 0.95;
+ }
+
+ /*DROPDOWN MENU */
+ .dropdown_menu {
+    position: absolute;
+    right: 3rem;
+    top: 60px;
+    width: 300px;
+    background: rgba( 255, 255, 255, 0.1);
+    
+
+ }
+
+ /*REPONSIVE CESION */
+ @media(max-widh: 992px)]{
+    .navbar-links,
+    .navbar.action_btn {
+        display: none;
+    }
+    .navbar.toggle_btn {
+        display: block;
+    }
+ }
+
 
 
