@@ -23,14 +23,38 @@
             <i class="fa-solid fa-bars"></i>
             </div>
             </div>
-            <div class="dropdowm_menu">
+            <div class="dropdowm_menu ">
             <li><a href="hero"> Home</a></li>
             <li><a href="about">About</a></li>
             <li><a href="services">Services</a></li>
             <li><a href="contact">Contact</a></li>
             <li><a href="#" class="action_btn"> Get Started</a></li>
             </div>
-            
+
         </header>
+
+        <main>
+            <section id="hero">
+                <h1>Welcome</h1>
+                <p>Lorem ipsum dolor sit amet consectetur <br />
+                    adipisicing elit. Error ipsa fuga mollitia assumenda officia, natus eligendi. Quos culpa similique, repellendus provident expedita nostrum numquam asperiores, nobis voluptates consequatur, voluptatem perspiciatis!
+
+                </p>
+            </section>
+        </main>
+        <script>
+            const toggleBtn = document.querySelector('.toggle_btn')
+             const toggleBtnIcon = document.querySelector('.toggle_btn i')
+              const dropDownmenu = document.querySelector('.dropdown_menu')
+
+              toggleBt.onclick = function () {
+                dropDownmenu.classList.toggle('open')
+                const isOpen = dropDownmen.classList.contains('open')
+
+                toggleBtnIcon.classList =isOpen
+                ?'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+              }
+        </script>
     </body>
 </html>
